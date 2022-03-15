@@ -1,0 +1,106 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: #494747;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(67, 92, 19);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline dotted rgba(238, 215, 4, .8) 6px;
+    text-underline-offset: 12px;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 1.8rem;;
+    text-decoration: none;
+}
+
+h2::before,
+h2::after {
+    content: "\1f33b ";
+    
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+nav li {
+    font-size: 1.3rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    letter-spacing: 1px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav,
+header {
+    text-align: center;
+}
+
+nav a,
+.assignments a,
+footer a {
+    text-decoration: none;
+    color: rgb(67, 92, 19);
+}
+
+nav a:link,
+nav a:visited {
+    line-height: 1.5;
+}
+
+nav a:hover,
+nav a:active {
+    text-decoration: underline wavy rgb(240, 205, 6) 2px;
+    text-underline-offset: 6px;
+    color:rgb(47, 125, 241);
+}
+
+nav a:hover::before {
+    content: "\1f33b ";
+}
+
+header p {
+    font-size: 80%;
+}
+
+
+
+.assignments li {
+    list-style-type: none;
+}
+
+.assignments li::before {
+    content: "\1f33b ";
+    font-size: 1.6rem;
+}
+
+.assignments a:link,
+.assignments a:visited {
+    line-height: 1.6;
+}
+
+.assignments a:hover,
+.assignments a:active {
+    text-decoration: underline double rgba(49, 97, 170, .5) 2px;
+    text-underline-offset: 4px;
+}
+
+
+
+footer {
+    color: rgb(49, 97, 170);
+    line-height: 80%;
+    font-weight: 500;
+}
+
